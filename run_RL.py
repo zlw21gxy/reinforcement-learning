@@ -9,8 +9,8 @@
 import argparse
 import logging
 
-from carla.driving_benchmark import run_driving_benchmark
-from carla.driving_benchmark.experiment_suites import CoRL2017, BasicExperimentSuite
+from driving_benchmark import run_driving_benchmark
+from driving_benchmark.experiment_suites import CoRL2017, BasicExperimentSuite
 from agent.runnable_model import A3CAgent
 
 
